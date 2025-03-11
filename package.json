@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.9.1",
+    "@hookform/resolvers": "^18.2.0",
     "@radix-ui/react-accordion": "^18.2.0",
     "@radix-ui/react-alert-dialog": "^18.2.0",
     "@radix-ui/react-aspect-ratio": "^18.2.0",
