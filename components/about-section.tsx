@@ -104,8 +104,13 @@ export default function AboutSection({ scrollYProgress }) {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-purple-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-              Join the ultimate cyberpunk hackathon where coders, designers, and innovators converge to build the
-              future. 48 hours of coding, collaboration, and cutting-edge tech await.
+            Make-a-Thon is the flagship event of the Electronics and Communication Engineering department of 
+            Sri Venkateswara College of Engineering. It serves as a platform for the participants to showcase 
+            their talents and expertise in project development and deepen their problem-solving skills. After the 
+            successful events of Make-o-thon 1.0,2.0,3.0,4.0 and 5.0 the Electronics and Communication Engineers Association, 
+            The Institution of Electronics and Telecommunication Engineers Student Forum & Robotics and Artificial 
+            Intelligence Club are all set to conduct the “Make-a-Thon 6.0” as an inter-collegiate event. This event 
+            serves as an opportunity for the students to upskill themselves on recent technologies.
             </p>
             <div className="flex justify-center gap-8 items-center mt-8">
               <img src="/new ECEA logo.png" alt="ECE Association" className="h-24 md:h-32 bg-white p-1 rounded-lg border-2 border-transparent bg-gradient-to-r from-cyan-400 to-purple-500"  />
