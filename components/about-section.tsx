@@ -110,9 +110,9 @@ export default function AboutSection({ scrollYProgress }) {
           </div>
         </motion.div>
         <div className="flex justify-center gap-8 items-center mt-8">
-          <img src="public\ECEA logo.png" alt="ECE Association" className="h-16 md:h-20" />
-          <img src="/path-to-logo2.png" alt="Logo2" className="h-16 md:h-20" />
-          <img src="/path-to-logo3.png" alt="Logo3" className="h-16 md:h-20" />
+          <img src="/public/ECEA logo.png" alt="ECE Association" className="h-16 md:h-20" />
+          <img src="/public/new IETE logo.png" alt="IETE-SF" className="h-16 md:h-20" />
+          <img src="/public/RAIC logo.png" alt="RAIC" className="h-16 md:h-20" />
         </div>
         {/* Parallax content */}
         <div className="relative">
