@@ -107,13 +107,14 @@ export default function AboutSection({ scrollYProgress }) {
               Join the ultimate cyberpunk hackathon where coders, designers, and innovators converge to build the
               future. 48 hours of coding, collaboration, and cutting-edge tech await.
             </p>
+            <div className="flex justify-center gap-8 items-center mt-8">
+              <img src="/new ECEA logo.png" alt="ECE Association" className="h-24 md:h-32 bg-white p-1 rounded-lg border-2 border-transparent bg-gradient-to-r from-cyan-400 to-purple-500"  />
+              <img src="/new IETE logo.png" alt="IETE-SF" className="h-24 md:h-32 bg-white p-1 rounded-lg border-2 border-transparent bg-gradient-to-r from-cyan-400 to-purple-500"  />
+              <img src="/new RAIC logo.png" alt="RAIC" className="h-24 md:h-32 bg-white p-1 rounded-lg border-2 border-transparent bg-gradient-to-r from-cyan-400 to-purple-500"  />
+            </div>
           </div>
         </motion.div>
-        <div className="flex justify-center gap-8 items-center mt-8">
-          <img src="/new ECEA logo.png" alt="ECE Association" className="h-24 md:h-32 bg-white p-1 rounded-lg border-2 border-transparent bg-gradient-to-r from-cyan-400 to-purple-500"  />
-          <img src="/new IETE logo.png" alt="IETE-SF" className="h-24 md:h-32 bg-white p-1 rounded-lg border-2 border-transparent bg-gradient-to-r from-cyan-400 to-purple-500"  />
-          <img src="/new RAIC logo.png" alt="RAIC" className="h-24 md:h-32 bg-white p-1 rounded-lg border-2 border-transparent bg-gradient-to-r from-cyan-400 to-purple-500"  />
-        </div>
+
         {/* Parallax content */}
         <div className="relative">
           <motion.div style={{ y, opacity }} className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
