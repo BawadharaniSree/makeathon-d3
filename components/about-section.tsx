@@ -109,7 +109,11 @@ export default function AboutSection({ scrollYProgress }) {
             </p>
           </div>
         </motion.div>
-
+<div className="flex justify-center gap-8 items-center mt-8">
+  <img src="/path-to-logo1.png" alt="Logo1" className="h-16 md:h-20" />
+  <img src="/path-to-logo2.png" alt="Logo2" className="h-16 md:h-20" />
+  <img src="/path-to-logo3.png" alt="Logo3" className="h-16 md:h-20" />
+</div>
         {/* Parallax content */}
         <div className="relative">
           <motion.div style={{ y, opacity }} className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
